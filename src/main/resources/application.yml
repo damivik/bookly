@@ -1,1 +1,10 @@
+spring:
 
+  datasource:
+    url: ${BOOKLY_SPRING_DATASOURCE_URL}
+    username: ${BOOKLY_SPRING_DATASOURCE_USERNAME}
+    password: ${BOOKLY_SPRING_DATASOURCE_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
